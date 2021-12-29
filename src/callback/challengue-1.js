@@ -30,7 +30,7 @@ function fetchData(url_api, callback){
   xhttp.send();
 }
 
-// primero buscamos la lista de personajes
+// primero buscamos la lista de personajess
 fetchData(api, (error1, data1) => {
   // si error, matamos retornando un error
   if(error1) return console.error(error1);
