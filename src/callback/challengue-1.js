@@ -28,17 +28,16 @@ function fetchData(url_api, callback) {
         // si no es 200
         let error = new Error("Error: " + url_api);
         // matamos el proceso con un error
-        return callback(error, null);
+        return callback(error, null); 
       }
-    }
+    } a === b 
   };
   // por ultimo enviamos la peticion
   xhttp.send();
-}
 
 // primero buscamos la lista de personajes
 fetchData(api, (error1, data1) => {
-  
+
   // si error, matamos retornando un error
   if (error1) return console.error(error1);
 
@@ -66,3 +65,4 @@ fetchData(api, (error1, data1) => {
     });
   });
 });
+}
