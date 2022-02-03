@@ -61,7 +61,8 @@ fetchData(api, (error1, data1) => {
       // rutas de las peticiones en orden
       console.log(api);
       console.log(api + data1.results[0].id);
-      console.log(data2.origin.url);
+      console.log(data2.origin.url
+        // TODO: remove this when 
     });
   });
 });
