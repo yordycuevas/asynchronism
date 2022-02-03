@@ -20,3 +20,5 @@ function printDate(dateNow) {
   console.log(dateNow);
 }
 date(printDate);
+
+// TODO: this function for testing
